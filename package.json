@@ -1,0 +1,61 @@
+{
+  "name": "desafio-2-publico",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "eslint --fix --ext .vue,.js,.jsx ."
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@vue/cli": "^4.5.8",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "deepmerge": "^4.2.1",
+    "node-sass": "~6.0.1",
+    "sass": "~1.30.0",
+    "sass-loader": "^10.1.0",
+    "suppress-chunks-webpack-plugin": "^1.0.6",
+    "vue": "^2.6.11",
+    "vuetify": "^2.6.3",
+    "vuetify-loader": "^1.7.3",
+
+    "@babel/preset-env": "^7.6.3",
+    "@vue/babel-preset-app": "^4.4.6",
+    "@vue/cli-plugin-babel": "~4.4.6",
+    "@vue/cli-plugin-eslint": "~4.4.6",
+    "@vue/cli-service": "~4.4.6",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "aspnet-webpack": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-analytics": "^5.17.2",
+    "vue-cli-plugin-vuetify": "^2.3.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
